@@ -6,7 +6,7 @@ const routes = require("./routes/api");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-
+console.log(process.env.PORT)
 //Mongoose
 mongoose.connect(
   process.env.MONGODB_URL || "mongodb://localhost:27017/mernApp",
